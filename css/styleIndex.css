@@ -9,6 +9,8 @@ body {
     border: solid #dfe4ea;
     border-width: 10px;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -16,6 +18,11 @@ img {
     height: 250px;
     padding: 20px;
     margin: 10px;
+}
+
+.photoDiv{
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -28,6 +35,7 @@ nav {
     background-color: #dfe4ea;
     
 }
+
 a {
     text-decoration: none;
     color: #70a1ff;
@@ -76,6 +84,7 @@ a:hover{
 .sidenav a:hover {
     color: #064579;
 }
+
  .mark{
      width: 64px;
      height: 64px;
