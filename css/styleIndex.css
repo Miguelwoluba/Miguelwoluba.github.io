@@ -38,9 +38,9 @@ a:hover{
     border-radius: 10px;
 }
 
-.loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
+/* .loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -50,5 +50,35 @@ a:hover{
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+} */
+
+.sidenav {
+    
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.1)
+    
 }
 
+.sidenav a {
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+ .mark{
+     width: 64px;
+     height: 64px;
+     padding: 0;
+     margin: 0;
+ }
