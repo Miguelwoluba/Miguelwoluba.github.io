@@ -2,7 +2,7 @@
 
 
 body {
-    width: 960px;
+    width: 1000;
     text-align: center;
     font-family: 'Gugi', cursive;
     color: #2f3542;
@@ -11,6 +11,16 @@ body {
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
 }
 
 img {
@@ -20,20 +30,27 @@ img {
     margin: 10px;
 }
 
-.photoDiv{
+.photoDiv {
     display: flex;
     justify-content: center;
 }
 
 nav {
     background-color: #dfe4ea;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
     
 }
 .articleColor {
     background-color: #dfe4ea;
+    margin: 10px;
+    padding: 10px;
     
+}
+article{
+    margin: 10px;
+    padding: 10px;
 }
 
 a {
@@ -46,7 +63,8 @@ a:hover{
     border-radius: 10px;
 }
 
-/* .loader {
+/* loader css starts */
+.loader {
     border: 16px solid #f3f3f3; 
     border-top: 16px solid #3498db; 
     border-radius: 50%;
@@ -58,7 +76,8 @@ a:hover{
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-} */
+}
+/* loader css ends */
 
 .sidenav {
     
