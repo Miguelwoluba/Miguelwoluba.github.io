@@ -32,6 +32,12 @@ h3 {
     margin: 10px;
 }
 
+#pic {
+    padding: 2px;
+    border: 2px groove #dfe4ea; 
+    border-radius: 5px;
+    background-color:  #dfe4ea;
+}
 
 img {
     width: 250px;
@@ -148,5 +154,9 @@ a:hover{
  .vito {
      width: 400px;
      height: 500px;
+     padding: 2px;
+     border: 2px groove #dfe4ea; 
+     border-radius: 5px;
+     background-color:  #dfe4ea;
 
  }
