@@ -160,3 +160,15 @@ a:hover{
      background-color:  #dfe4ea;
 
  }
+
+ @media screen and (max-width:980px){
+     background-color: #ff4757;
+ }
+
+ @media screen and (max-width:768px){
+    background-color: grey;
+ }
+
+ @media screen and (max-width:640px){
+    background-color: goldenrod;
+ }
