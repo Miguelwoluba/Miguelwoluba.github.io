@@ -2,7 +2,7 @@
 
 
 body {
-    width: 1000;
+    width: 1100px;
     text-align: center;
     font-family: 'Gugi', cursive;
     color: #2f3542;
@@ -171,4 +171,28 @@ a:hover{
 
  @media screen and (max-width:640px){
     background-color: goldenrod;
+ }
+
+ .porpic {
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    border: 2px groove #dfe4ea; 
+    border-radius: 5px;
+    background-color:  #dfe4ea;
+
+ }
+
+ .projectContainer {
+    width: 900px;
+    margin: 0 20px 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
  }
